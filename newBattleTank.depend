@@ -1,0 +1,304 @@
+# depslib dependency file v1.0
+1475363350 source:/home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/main.cpp
+	"Game.h"
+
+1475719881 /home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/Game.h
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	<iostream>
+	<vector>
+	<fstream>
+	<time.h>
+	"Defines.h"
+	"Animation.h"
+	"Objeto.h"
+	"Player.h"
+	"Bala.h"
+	"Texto.h"
+
+1475682207 /home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/Defines.h
+	<string>
+
+1475722503 source:/home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/Game.cpp
+	"Game.h"
+
+1475561662 source:/home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/Animation.cpp
+	"Animation.h"
+
+1475492950 /home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/Animation.h
+	<SDL/SDL.h>
+	"Defines.h"
+
+1457863494 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1457863494 /usr/include/SDL/SDL_platform.h
+
+1457863494 /usr/include/SDL/begin_code.h
+
+1457863494 /usr/include/SDL/close_code.h
+
+1457863494 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_keysym.h
+
+1457863494 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1457863494 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1457863494 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1475563655 /home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/Objeto.h
+
+1475495910 source:/home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/Objeto.cpp
+	"Objeto.h"
+
+1475510936 source:/home/csunsa00/Documents/newBattleTank/Animation.cpp
+	"Animation.h"
+
+1475510951 /home/csunsa00/Documents/newBattleTank/Animation.h
+	<SDL/SDL.h>
+	"Defines.h"
+
+1475518259 source:/home/csunsa00/Documents/newBattleTank/Game.cpp
+	"Game.h"
+
+1475517436 /home/csunsa00/Documents/newBattleTank/Game.h
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	<iostream>
+	<vector>
+	<fstream>
+	"Defines.h"
+	"Animation.h"
+	"Objeto.h"
+	"Player.h"
+
+1475518179 /home/csunsa00/Documents/newBattleTank/Defines.h
+	<string>
+
+1475513905 /home/csunsa00/Documents/newBattleTank/Objeto.h
+
+1475381350 source:/home/csunsa00/Documents/newBattleTank/main.cpp
+	"Game.h"
+
+1475513911 source:/home/csunsa00/Documents/newBattleTank/Objeto.cpp
+	"Objeto.h"
+
+1475516995 source:/home/csunsa00/Documents/newBattleTank/Player.cpp
+	"Player.h"
+
+1475516936 /home/csunsa00/Documents/newBattleTank/Player.h
+	<SDL.h>
+	"Defines.h"
+
+1475692886 /home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/Player.h
+	<SDL.h>
+	<vector>
+	<deque>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	"Defines.h"
+	"Objeto.h"
+	"Bala.h"
+	"Animation.h"
+
+1475692879 source:/home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/Player.cpp
+	"Player.h"
+
+1475690128 source:/home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/Bala.cpp
+	"Bala.h"
+
+1475690084 /home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/Bala.h
+	<SDL.h>
+	<vector>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<deque>
+	"Defines.h"
+	"Objeto.h"
+
+1475576191 source:/home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/Texto.cpp
+	"Texto.h"
+
+1475576243 /home/citec/Documentos/UNSA/VIDEOJUUEGOS/BattleTank/newBattleTank/Texto.h
+	<SDL/SDL.h>
+	<iostream>
+	"Defines.h"
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<sstream>
+	<time.h>
+
